@@ -46,20 +46,29 @@ int main()
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
-        if(arr[i] == 0) {zero++;}
-        else if(arr[i] == 1) {one++;}
-        else {two++;}
+        if (arr[i] == 0)
+        {
+            zero++;
+        }
+        else if (arr[i] == 1)
+        {
+            one++;
+        }
+        else
+        {
+            two++;
+        }
     }
 
     for (int i = 0; i < zero; i++)
     {
         cout << "0 ";
     }
-    for(int i = 0; i < one; i++)
+    for (int i = 0; i < one; i++)
     {
         cout << "1 ";
     }
-    for(int i = 0; i < two; i++)
+    for (int i = 0; i < two; i++)
     {
         cout << "2 ";
     }
